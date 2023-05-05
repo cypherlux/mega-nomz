@@ -21,6 +21,10 @@ I like to cook, but sometimes I get stuck in a rut. I'd like an easy way that I 
 ## Front-end
 On the front-end, I plan to use HTML, CSS, Javascript. Maybe I'll throw in some React. Idk yet.
 
+Features:
+- searchable
+- can add to shopping list
+
 ## Back-end
 In the backend, I'll need:
 - a database
