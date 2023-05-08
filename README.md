@@ -3,6 +3,7 @@
 
 ## Overview
 This recipe app will help me do the following:
+
 ### 1) Search through recipes I have saved by:
 - ingredients
 - macros, calories, nutrients
@@ -63,3 +64,30 @@ The database will have to store a fuck ton of stuff, such as:
 - general type of meal (bowl, stirfry, pasta, smoothie)
 - meal type (breakfast, lunch/dinner, snack, dessert)
 - meal prepable (True or False probably, i.e. can I make this ahead of time and freeze it?)
+
+## Outline
+
+### What this project is about:
+
+This project will be a recipe database where I can make various types of search queries to sort through the database.
+
+#### Header:
+
+- Hero Image w/
+  - Title
+  - tagline
+  - "Search" button that just skips lower on page or to another page?
+
+#### Main content:
+
+- left menu
+  - will have all the search categories separated out (radio), not drop downs
+  - ingredients will be the top one
+    - is a typing search box
+    - once selected, the ingredient will be generated with an X next to it (to delete it)
+- recipe cards
+  - grid style, responsive  
+  - photo
+  - recipe main
+  - short blurb "easy salad that's great for putting in jars for camping" or "my go-to berry smoothie bowl with loads of toppings"
+
