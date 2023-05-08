@@ -3,7 +3,7 @@
 
 ## Overview
 This recipe app will help me do the following:
-1) Search through recipes I have saved by:
+### 1) Search through recipes I have saved by:
 - ingredients
 - macros, calories, nutrients
 - cuisine
@@ -11,24 +11,44 @@ This recipe app will help me do the following:
 - meal prep-ability
 - other qualities (hot, cold, comfort, healthy, light)
 - pictures!!
-2) Add more recipes:
+### 2) Add more recipes:
 - manually, using a form sorta thing
-- via a URL to one already on the web yayyyyyy ([inspo](https://github.com/hhursev/recipe-scrapers))
+- via a URL to one already on the web 
 
 ## Inspiration
-I like to cook, but sometimes I get stuck in a rut. I'd like an easy way that I can look for meals to make that I know are already bomb af. I could imagine me being restless and just needing to scroll through images into something looks delicious. Or perhaps it's the 13th week in a row that I've gotten carrots in my farm box, and I want to look for a recipe that I've used carrots in before but have forgotten about. Orrrr maybe I have a random ingredient (i.e. mint leaves) that I want to whip up into something tasty.
+
+I like to cook, but sometimes I get stuck in a rut. I'd like an easy way that I can look for meals to make that I already know are bomb af.
+
+Very realistic real-life examples:
+
+_Ugh, not carrots AGAIN! This is the 13th week in a row that I've gotten them in my farm box_. I could search for a recipe that haven't made in a while that has carrots.
+
+_Mint leaves? What the eff do I do with these?!_
+
+_Oh shoot, these tomatoes are going bad. I need to use them asap._
+
+_Idk what I want, but I'll know it when I see it_. Good thing there are photos!
+
+_It's so hot outside. I need something to help cool me off_.
+
+### Similar sites:
+- [SuperCooks](https://www.supercook.com/#/desktop)
+- [MyFridgeFood](https://myfridgefood.com/)
+
 
 ## Front-end
-On the front-end, I plan to use HTML, CSS, Javascript. Maybe I'll throw in some React. Idk yet.
+On the front-end, I plan to use HTML, CSS, Javascript. Maybe I'll throw in some React one day.
 
-Features:
-- searchable
+### Features:
+- searchable (Obviously this is a huge undertaking. So I think I'd just start by being able to search for a specific ingredient.)
 - can add to shopping list
 
 ## Back-end
 In the backend, I'll need:
-- a database
-- a web scraper (idk why but I wanna use Python)
+- a database (idk how yet)
+- a web scraper (Python?)
+  - can build my own eventually
+  - but will probably start with something like [this](https://github.com/hhursev/recipe-scrapers)
 
 ### Searchable things
 The database will have to store a fuck ton of stuff, such as:
@@ -39,8 +59,7 @@ The database will have to store a fuck ton of stuff, such as:
 - ordered instructions
 - cuisine type (ex: mexican, korean, america, etc.)
 - hot / cold
-- nutritional facts (by using [edamam api](https://developer.edamam.com/food-database-api-demo)?
+- nutritional facts (by using [edamam api](https://developer.edamam.com/food-database-api-demo)?)
 - general type of meal (bowl, stirfry, pasta, smoothie)
 - meal type (breakfast, lunch/dinner, snack, dessert)
 - meal prepable (True or False probably, i.e. can I make this ahead of time and freeze it?)
-
